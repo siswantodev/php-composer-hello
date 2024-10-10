@@ -1,0 +1,19 @@
+{
+	"name": "cakguess/php-composer-hello",
+	"description": "Library Composer Hello",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"Cakguess\\Belajar\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Agus Siswanto",
+			"email": "cak_guess@ymail.com"
+		}
+	],
+	"require": {
+		"php": ">=8.0"
+	}
+}
